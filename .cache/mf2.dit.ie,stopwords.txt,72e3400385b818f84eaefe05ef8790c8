@@ -1,14 +1,14 @@
 status: 200
-server: Apache/2.2.22 (Debian)
--varied-accept-encoding: gzip, deflate
-last-modified: Fri, 28 Nov 2014 11:08:45 GMT
--content-encoding: gzip
-vary: Accept-Encoding
 etag: "b47-9d-508e948cb4c76"
+-content-encoding: gzip
 content-length: 157
-date: Sat, 31 Jan 2015 18:15:43 GMT
+date: Sat, 31 Jan 2015 19:22:01 GMT
+last-modified: Fri, 28 Nov 2014 11:08:45 GMT
 content-type: text/plain
+server: Apache/2.2.22 (Debian)
+vary: Accept-Encoding
 content-location: http://mf2.dit.ie/stopwords.txt
+-varied-accept-encoding: gzip, deflate
 accept-ranges: bytes
 -varied-accept-encoding: gzip, deflate
 

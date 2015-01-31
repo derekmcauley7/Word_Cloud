@@ -69,6 +69,7 @@ def main():
 
         words = countWords(speech)
 
+        # creates a html file called wordCount and writes html to it.
         file = open("wordCloud.html", "w")
         file.write("""<!DOCTYPE html>
                     <html>
@@ -77,11 +78,15 @@ def main():
                     <title>Tag Cloud Generator</title>
                     </head>
                     <body>
-                    <div style="text-align: center; vertical-align: middle; font-family: arial; color: white; background-color:black; border:1px solid black">""")
+                    <div style="text-align: center; vertical-align: middle; font-family:
+                    arial; color: white; background-color:black; border:1px solid black">""")
         for word in words:
-            if words[word] <= 2:
+            if len(word) < 3:
+                # writes the words to the file and the more frequent the word the larger it is.
+                file.write("")
+            elif words[word] <= 2:
                 file.write("""<span style="font-size: 40px">""" + word + """</span> """ + "\n")
-            elif words[word] >=3:
+            elif words[word] >= 3:
                 file.write("""<span style="font-size: 80px">""" + word + """</span> """ + "\n")
             elif words[word] >= 4:
                 file.write("""<span style="font-size: 100px">""" + word + """</span> """ + "\n")

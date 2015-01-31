@@ -1,14 +1,14 @@
 status: 200
-server: Apache/2.2.22 (Debian)
--varied-accept-encoding: gzip, deflate
-last-modified: Wed, 27 Nov 2013 17:44:17 GMT
--content-encoding: gzip
-vary: Accept-Encoding
 etag: "1ea2-5a4-4ec2c2572b0d0"
+-content-encoding: gzip
 content-length: 1444
-date: Sat, 31 Jan 2015 18:15:42 GMT
+date: Sat, 31 Jan 2015 19:22:01 GMT
+last-modified: Wed, 27 Nov 2013 17:44:17 GMT
 content-type: text/plain
+server: Apache/2.2.22 (Debian)
+vary: Accept-Encoding
 content-location: http://mf2.dit.ie/gettysburg.txt
+-varied-accept-encoding: gzip, deflate
 accept-ranges: bytes
 -varied-accept-encoding: gzip, deflate
 
